@@ -1,4 +1,4 @@
-export function options(issues, hideRancher, product) {
+export function options(issues, hideRancher) {
   if (!issues) {
     if (hideRancher) {
       return { };
