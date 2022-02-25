@@ -160,8 +160,11 @@ export default {
 
 <style lang="scss" scoped>
 .upgrade {
+  float: right;
+  height: 100%;
   min-width: 40px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
 
   .dot-icon {
     font-size: 24px;
